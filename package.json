@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
+    "aos": "^2.3.4",
     "autoprefixer": "10.4.15",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.15",
@@ -19,6 +20,8 @@
     "react": "18.2.0",
     "react-animated-numbers": "^0.16.0",
     "react-dom": "18.2.0",
+    "react-intersection-observer": "^9.8.0",
+    "react-reveal": "^1.2.2",
     "react-type-animation": "^3.1.0",
     "resend": "^1.0.0",
     "tailwindcss": "3.3.3"

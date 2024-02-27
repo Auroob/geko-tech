@@ -8,6 +8,8 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Montserrat: ["Montserrat"],},
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -16,8 +18,12 @@ module.exports = {
     },
     colors: {
       ...colors,
-      primary: colors.purple,
-      secondary: colors.pink,
+      primary: colors.blue,
+      secondary: colors.orange,
+      'geko-blue': '#4B92E0',
+      'geko-bg': '#F0EDCF',
+      'geko-orange': '#EA6A00',
+      'geko-grey': '#8F8B8B',
     },
   },
   plugins: [],
